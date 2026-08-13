@@ -58,7 +58,8 @@ public class SecurityConfig {
                     // Authentication endpoints
                     .requestMatchers(
                             "/api/auth/register",
-                            "/api/auth/login"
+                            "/api/auth/login",
+                            "/api/auth/test"
                     ).permitAll()
 
                     // All other APIs require authentication
